@@ -1,0 +1,77 @@
+.container {
+    position: relative;
+}
+
+.singlepic {
+    max-width: 600px;
+}
+
+
+/* Make the image responsive */
+
+.containermob img {
+    width: 100%;
+    height: auto;
+}
+
+img.centralimg {
+    padding: 60px 30px 15px 30px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.icontainer {
+    color: white;
+    position: absolute;
+}
+
+.icon {
+    font-size: 28px;
+}
+
+.rewardsmob {
+    top: 2%;
+    left: 45%;
+}
+
+.supportmob {
+    top: 15%;
+    left: 15%;
+}
+
+.savingsmob {
+    top: 15%;
+    left: 77%;
+}
+
+.loanmob {
+    top: 40%;
+    left: 8%;
+}
+
+.investmentsmob {
+    top: 40%;
+    left: 85%;
+}
+
+.paymentsmob {
+    top: 64%;
+    left: 3%;
+}
+
+.forexmob {
+    top: 64%;
+    left: 89%;
+}
+
+.cardsmob {
+    top: 83%;
+    left: 6%;
+}
+
+.analyticsmob {
+    top: 83%;
+    left: 87%;
+}

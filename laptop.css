@@ -1,0 +1,112 @@
+.container {
+    position: relative;
+}
+
+.miltipic {
+    margin-left: -200px;
+}
+
+.regularman {
+    margin-right: 10%;
+    height: auto;
+}
+
+.onebancman {
+    margin-left: 10%;
+    height: auto;
+}
+
+.ilcontainer {
+    color: black;
+    position: absolute;
+}
+
+.rewardsreg {
+    top: 55%;
+    left: 10%;
+}
+
+.rewardsob {
+    top: 10%;
+    left: 72%;
+}
+
+.savingsreg {
+    top: 40%;
+    left: 5%;
+}
+
+.savingsob {
+    top: 10%;
+    left: 79%;
+}
+
+.supportreg {
+    top: 40%;
+    left: 39%;
+}
+
+.supportob {
+    top: 10%;
+    left: 86%;
+}
+
+.investmentsreg {
+    top: 24%;
+    left: 1%;
+}
+
+.investmentsob {
+    top: 2%;
+    left: 72%;
+}
+
+.loanreg {
+    top: 25%;
+    left: 42%;
+}
+
+.loanob {
+    top: 17%;
+    left: 77%;
+}
+
+.forexreg {
+    top: 12%;
+    left: 3%;
+}
+
+.forexob {
+    top: 0%;
+    left: 80%;
+}
+
+.paymentsreg {
+    top: 12%;
+    left: 36%;
+}
+
+.paymentsob {
+    top: 17%;
+    left: 83%;
+}
+
+.analyticsreg {
+    top: 0%;
+    left: 13%;
+}
+
+.analyticsob {
+    top: 2%;
+    left: 86%;
+}
+
+.cardsreg {
+    top: 0%;
+    left: 32%;
+}
+
+.cardsob {
+    top: 24%;
+    left: 80%;
+}

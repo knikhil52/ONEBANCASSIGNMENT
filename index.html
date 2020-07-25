@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>OneBanc - EARN | TRACK | INVEST | GROW</title>
+    <link rel="stylesheet" href="./laptop.css">
+    <link rel="stylesheet" type="text/css" href="./phone.css">
+    <link rel="stylesheet" type="text/css" href="./indexpage.css">
+    <script src="./imagechanger.js"></script>
+</head>
+
+<body>
+    <div class="mainbody pl-4 row">
+        <header class="header col-12">
+            <img class="logo" src="./resources/logo_onebanc.png" alt="">
+        </header>
+        <div class="column1 col-4 pl-4 pr-0 mt-4 details">
+            <div class="title">
+                <div>RE:</div>
+                <div>THINK</div>
+                <div class="typewrite" data-period="1500" data-type='["CARDS", "PAYMENTS", "LOAN", "SUPPORT", "REWARDS", "SAVINGS", "INVESTMENTS", "FOREX", "ANALYTICS"]'>
+                </div>
+            </div>
+            <div class="summary mt-4">
+                We are a Neo Bank and are here to re-imagine and re-invent Banking. We are cool and simply awesome!
+            </div>
+            <div class="summary mt-4">
+                Get an early invitation for our Beta release.
+            </div>
+            <div class="emailinput row">
+                <input class="email col-9 ml-3 pl-2" type="text" id="inp_eml" placeholder="Enter Email Address" maxlength="64">
+                <i class="fas fa-arrow-right btn bg-info text-white" style="font-size: 30px; padding:0px;width:50px;"></i>
+            </div>
+        </div>
+        <div class="column2 col-8 pl-0 pr-0 mt-4 imganime d-flex align-items-center justify-content-center">
+            <div id="singlepic" class="singlepic pl-0 pr-0 container containermob d-flex align-items-center justify-content-center">
+                <img src="./resources/onebanc_man_mob.png" class="centralimg d-flex align-items-center justify-content-center">
+                <div class="Rewards rewardsmob icontainer">
+                    <i class="fas fa-gift d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Rewards</p>
+                </div>
+                <div class="Support supportmob icontainer">
+                    <i class="fa fa-headphones d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Support</p>
+                </div>
+                <div class="Savings savingsmob icontainer">
+                    <i class="fas fa-piggy-bank d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Savings</p>
+                </div>
+                <div class="Loan loanmob icontainer">
+                    <i class="fas fa-hand-holding-usd d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Loan</p>
+                </div>
+                <div class="Investments investmentsmob icontainer">
+                    <i class="fas fa-coins d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Investments</p>
+                </div>
+                <div class="Payments paymentsmob icontainer">
+                    <i class="fas fa-money-bill-alt d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Payments</p>
+                </div>
+                <div class="Forex forexmob icontainer">
+                    <i class="fas fa-money-check-alt d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Forex</p>
+                </div>
+                <div class="Cards cardsmob icontainer">
+                    <i class="fas fa-credit-card d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Cards</p>
+                </div>
+                <div class="Analytics analyticsmob icontainer">
+                    <i class="fas fa-chart-line d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Analytics</p>
+                </div>
+            </div>
+            <div id="multipic" class="multipic container">
+                <div class="d-flex align-items-center justify-content-center images">
+                    <img src="./resources/regular_bank.png" alt="" class="regularman">
+                    <img class="vc_dottedline" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAJoCAYAAABMRjAxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4NzRhYzAwMS0zZjNhLTQ4MzMtOTBkMy01YzY3YjgyYWMzZjEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTIwQzJDOEIyM0IyMTFFQTgyNkVERkY4OTU4OTdCNTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTIwQzJDOEEyM0IyMTFFQTgyNkVERkY4OTU4OTdCNTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZDIyZmYzZTktMjJlMy00ZWMyLTlhYWMtY2UxM2QwNjRhZjY2IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NTYzOTJlZmYtOWI5OS0yYjQ3LTlhOTQtZTk0NTdlZTgyOTRhIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/ZMvSwAAAxRJREFUeNrEWEFrE0EY3dnZbJtqGpuqqAjWg1QUQQVPHhQtioh3EepZPHrxJF4Fr/4Ab4JHwZMXD54MehQsCIpIK2gVWt1sYnb93jJvyJJWMWb7BV74dmeSffNmvm/erAmCYK/gWChfsWAGQSboIsAnZxAgyHmn+AG+IoE18rVN0DR5nvvOWxUE7qEGNPYI5tG0T3COwzEkH1ZCA/+cIagJGgh+CVbBpy6YVpEFT7fghCk6LFhA037BBQRdsCR5W5ksxWqZFLTApYFlQ2KRmizg04AspwWLaNolOImgI0i3SBasjVnr7n4xjpxRk2XGCREsCl6haRoFgrL02Lm2cXH4z8AwPSdQTSDLd8FLFTVKshwVHMfFHa4NP/YeA1CMOIqxyhJR8FTw07gUnlOttEXBPy+4hKv7HHLKztnIC6AIphjYwZQpd44ZrAg+4KezgFrugM92zNV1wRXcfURZOoOVtmI+qGwRZNuN1UlisZosmJQmLu4J2mg6gowqVdoxDLnzl9SDOYmtm4L3rLRWTZZ5N0PBE6xeNO0UJAj6ADubavlgA5oEnwW13CnJchlTheAtUiZi0Ru9pExR1ZieNt9c1XCwqtdA40QRaFbaCDRuC75i9b6gJ1nluMb10JAOts5/9tkUs+k15gO3W2hSyx2fyw9hTrBIrgm+DXXOq+fzA8FTOBUS05PlAJ4OWZ4hqdF0ikFAc+I5B5zTcdLwgmfWVf53xhmYUE2Wi4LP1pWUFZqKtForu7EsxezAriwxu/VkuSF4Az5twaeh7cZWL0vfH7LA54xgXbXSFgX/ruAjZHnOfadHd5GPtB3D5NT5QsBufh40dCmFLG1a/R2q50HsnhMIHpDPMuwTXbflNpGNbvW7fI+UUKhhFweDF2JS5tDPuBOi3tuDFt8e3BKcxd3H5LzGGfyDF/VjT3ngTf7lxZQpnYmss0b+7YFeScGx9BAubrLSQqMmgnUYGJI3Q6PIKUJCp1c2wP5XfZ6kuoNZWX4h6Sst/nBJ39NiHzwYug36KkeRsDgsDx0M/UjXWH+S3wIMAFLnAEYLxRAIAAAAAElFTkSuQmCC">
+                    <img src="./resources/onebanc_man.png" alt="" class="onebancman">
+                </div>
+                <div class="Rewards rewardsreg ilcontainer">
+                    <i class="fas fa-gift d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Rewards</p>
+                </div>
+                <div class="Rewards rewardsob ilcontainer">
+                    <i class="fas fa-gift d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Rewards</p>
+                </div>
+                <div class="Savings savingsreg ilcontainer">
+                    <i class="fas fa-piggy-bank d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Savings</p>
+                </div>
+                <div class="Savings savingsob ilcontainer">
+                    <i class="fas fa-piggy-bank d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Savings</p>
+                </div>
+                <div class="Support supportreg ilcontainer">
+                    <i class="fas fa-headphones d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Support</p>
+                </div>
+                <div class="Support supportob ilcontainer">
+                    <i class="fas fa-headphones d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Support</p>
+                </div>
+                <div class="Investments investmentsreg ilcontainer">
+                    <i class="fas fa-coins d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Investments</p>
+                </div>
+                <div class="Investments investmentsob ilcontainer">
+                    <i class="fas fa-coins d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Investments</p>
+                </div>
+                <div class="Loan loanreg ilcontainer">
+                    <i class="fas fa-hand-holding-usd d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Loan</p>
+                </div>
+                <div class="Loan loanob ilcontainer">
+                    <i class="fas fa-hand-holding-usd d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Loan</p>
+                </div>
+                <div class="Forex forexreg ilcontainer">
+                    <i class="fas fas fa-money-check-alt d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Forex</p>
+                </div>
+                <div class="Forex forexob ilcontainer">
+                    <i class="fas fas fa-money-check-alt d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Forex</p>
+                </div>
+                <div class="Payments paymentsreg ilcontainer">
+                    <i class="fas fa-money-bill-alt d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Payments</p>
+                </div>
+                <div class="Payments paymentsob ilcontainer">
+                    <i class="fas fa-money-bill-alt d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Payments</p>
+                </div>
+                <div class="Analytics analyticsreg ilcontainer">
+                    <i class="fas fa-chart-line d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Analytics</p>
+                </div>
+                <div class="Analytics analyticsob ilcontainer">
+                    <i class="fas fa-chart-line d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Analytics</p>
+                </div>
+                <div class="Cards cardsreg ilcontainer">
+                    <i class="fas fa-credit-card d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Cards</p>
+                </div>
+                <div class="Cards cardsob ilcontainer">
+                    <i class="fas fa-credit-card d-flex justify-content-center txt-white icon"></i>
+                    <p class="itext">Cards</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer pl-3">
+            <img src="./resources/qr_code.png" class="playstore" alt="Coming soon on Google Play &amp; IOS APP Store">
+            <div class="copyright ml-4">2020 © OneBanc Technologies Pvt. Ltd.</div>
+        </div>
+    </div>
+    <script src="./typewrite.js"></script>
+</body>
+
+</html>

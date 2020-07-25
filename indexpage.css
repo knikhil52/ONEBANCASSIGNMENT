@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(180deg, rgba(3, 135, 209, 1) 0%, rgba(1, 85, 132, 1) 100%);
+    min-width: 540px;
+}
+
+.logo {
+    max-width: 330px;
+    min-width: 330px;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.summary {
+    color: white;
+    font-size: 15px;
+    max-width: 335px;
+}
+
+.title {
+    color: white;
+    font: 50px "Roboto", "Cambria", "lucida grande", "lucida sans", Geneva, "sans-serif", tahoma, helvetica, arial;
+}
+
+.email {
+    height: 35px;
+}
+
+.column1 {
+    min-width: 316px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: white;
+}
+
+.column1 {
+    height: fit-content;
+}
+
+.playstore {
+    width: 100%;
+    min-width: 350px;
+}
+
+@media only screen and (min-width: 1091px) {
+    .footer {
+        margin-top: -200px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .footer {
+        margin-left: 4%;
+    }
+}
